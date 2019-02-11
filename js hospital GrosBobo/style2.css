@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gold;
+}
+
+header{
+  background-color: white;
+  padding: 20px;
+}
+
+header > h1{
+  color: black;
+  text-align: center;
+  font-family: 'Arvo', serif; 
+}
+
+h4{
+  margin: 30px;
+}
+
+
+p {
+  width: 150px; 
+  word-break: break-all;
+  word-spacing: 3px;
+  margin: 20px;
+}
+
+
+#image{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 375px;
+}
+
+.map{
+  display: flex;
+}
+
+img[usemap] {
+   height: auto;
+   max-width: 100%;
+   width: auto;
+} 
+
+/*button retur*/
+.button1{
+	text-align: center;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-decoration: none;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}	
+/*-- button--*/
+
+

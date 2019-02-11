@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+
+body{
+	background-color: gold;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+h1{
+	margin-left: 40%;
+	margin-bottom: 30%;
+	font-family: 'Indie Flower', cursive;
+}
+

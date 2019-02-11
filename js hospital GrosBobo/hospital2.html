@@ -1,0 +1,36 @@
+<!--DOCTYPE html-->
+<html>
+<head lang="fr">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hopital GrosBobo</title>
+	<link rel="stylesheet" type="text/css" href="style2.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+</head>
+<body>
+	<header>
+		<h1>Le Corps Humain</h1>
+	</header>
+	
+	<div id="image">
+		<img class="map" src="corps.png" width="139" height="498" alt="Le corps Humain" usemap="#corps" />
+		<map name="corps">
+			<area id="epaule" class="points" shape="circle" coords="14,94,25" alt="epaule" onclick ="epaule()"/>
+			<area id="main" class="points" shape="circle" coords="12,249,29" alt="main" onclick ="main()"/>
+			<area id="genous" class="points" shape="circle" coords="45,359,23" alt="genous" onclick ="genous()"/>
+			<area id="coude" class="points" shape="circle" coords="122,193,22" alt="coude" onclick ="coude()" />
+			<area id="cheville" class="points" shape="circle" coords="91,452,31" alt="cheville" onclick ="cheville()"/>
+			<area id="hanche" class="points" shape="circle" coords="105,256,26" alt="hanche" onclick ="hanche()"/>
+		</map>
+	</div>
+	
+	<div class="button1">
+		<a class="button" href="hospital.html">Retour</a>
+	</div>
+
+	<script type="text/javascript" src="javastyle2.js"></script>
+	<link href = https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.js>
+    <link href = https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js>
+</body>
+</html>
